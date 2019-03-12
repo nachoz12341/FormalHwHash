@@ -96,7 +96,6 @@ public class main {
     {
         //Linear probe
         InitHashTable();
-        InitRandBag();
 
         for(int i=0;i<900;i++) {
             HashInsert(R[i], 0);
@@ -115,7 +114,6 @@ public class main {
 
         //Quadratic probe
         InitHashTable();
-        InitRandBag();
 
         for(int i=0;i<900;i++) {
             HashInsert(R[i], 1);
@@ -134,7 +132,6 @@ public class main {
 
         //Double hash
         InitHashTable();
-        InitRandBag();
 
         for(int i=0;i<900;i++) {
             HashInsert(R[i], 2);
